@@ -41,6 +41,7 @@ public class DetailFragment extends Fragment {
         return rootView;
 
         //wow
+        //
     }
 
 }
