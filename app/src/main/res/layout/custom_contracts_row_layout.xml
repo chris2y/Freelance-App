@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeRow"
+    android:orientation="vertical"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/jobTitleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Job Title"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"
+                    android:ellipsize="end"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="55dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="2dp"/>
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:src="@drawable/ic_more_icon"
+                    android:id="@+id/moreIcon"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job Description"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"/>
+        <!-- Detail -->
+
+        <com.borjabravo.readmoretextview.ReadMoreTextView
+            android:id="@+id/jobDescriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="14sp"
+            app:trimExpandedText="more"
+            app:trimCollapsedText="less"
+            app:trimMode="trimModeLine"
+            app:trimLines="2"
+            android:textColor="#B4171717"
+            app:colorClickableText="#039BE5"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proposal Description"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"/>
+        <!-- Detail -->
+
+        <com.borjabravo.readmoretextview.ReadMoreTextView
+            android:id="@+id/proposalDescriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="14sp"
+            app:trimExpandedText="more"
+            app:trimCollapsedText="less"
+            app:trimMode="trimModeLength"
+            app:trimLength="50"
+            android:textColor="#B4171717"
+            app:colorClickableText="#039BE5"
+            />
+
+
+        <!-- Posted Time -->
+        <TextView
+            android:id="@+id/contractTimeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contract Date"
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"/>
+        <TextView
+            android:id="@+id/deliveryTimeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Will be delivered in"
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"/>
+
+        <TextView
+            android:id="@+id/priceTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="14sp"
+            android:textColor="@color/light_black"
+            />
+        <!-- Price -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/priceTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$100"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/rounded_square_button"
+                    android:text="Chat"
+                    android:id="@+id/chatButton"
+                    />
+
+        </LinearLayout>
+
+
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:id="@+id/separator"
+                android:background="@color/light_white" />
+
+
+    </LinearLayout>
+
+

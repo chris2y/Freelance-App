@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeRow"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:id="@+id/applierProfile"
+                    android:src="@drawable/profileholder"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    app:shapeAppearanceOverlay="@style/CircularImageView" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="10dp">
+
+
+                        <TextView
+                            android:id="@+id/fullNameTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Full Name"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="2dp"/>
+                        <!-- Detail -->
+
+                        <com.borjabravo.readmoretextview.ReadMoreTextView
+                            android:id="@+id/descriptionTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Proposal Description"
+                            android:textSize="14sp"
+                            app:trimExpandedText="more"
+                            app:trimCollapsedText="less"
+                            app:trimMode="trimModeLine"
+                            app:trimLines="3"
+                            android:textColor="#B4171717"
+                            android:layout_marginStart="10dp"
+                            app:colorClickableText="#039BE5"
+                            />
+
+
+                        <!-- Posted Time -->
+                        <TextView
+                            android:id="@+id/bidTimeTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bid 2 hours ago"
+                            android:textSize="12sp"
+                            android:textColor="@android:color/darker_gray"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="1dp"/>
+                        <TextView
+                            android:id="@+id/deliveryTimeTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Will be delivered in"
+                            android:textSize="12sp"
+                            android:textColor="@android:color/darker_gray"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginBottom="1dp"/>
+
+                        <TextView
+                            android:id="@+id/bidtxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bid"
+                            android:textSize="14sp"
+                            android:textColor="@color/light_black"
+                            android:layout_marginStart="10dp"
+                            />
+                        <!-- Price -->
+                        <TextView
+                            android:id="@+id/bidTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="$100"
+                            android:textSize="18sp"
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:textStyle="bold"
+                            android:layout_marginStart="10dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                                <Button
+                                    android:layout_width="140dp"
+                                    android:layout_height="35dp"
+                                    android:text="Award Project"
+                                    android:background="@drawable/rounded_square_button"
+                                    android:id="@+id/awardProjectButton"
+                                    />
+                                <Button
+                                    android:layout_width="140dp"
+                                    android:layout_height="35dp"
+                                    android:layout_marginTop="5dp"
+                                    android:background="@drawable/rounded_square_button"
+                                    android:text="Chat"
+                                    android:id="@+id/chatButton"
+                                    />
+                        </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:id="@+id/separator"
+                android:background="@color/light_white" />
+
+
+    </LinearLayout>
+
+

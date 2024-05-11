@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FreelancerApp10" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.FreelancerApp10" parent="Base.Theme.FreelancerApp10" />
+
+    <style name="CircularImageView">
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <style name="TextinputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">#296098</item>
+        <item name="boxStrokeWidth">1dp</item>
+    </style>
+
+    <style name="ratingBar" parent="Widget.AppCompat.RatingBar">
+
+        <item name="android:colorControlActivated">#0FA650</item>
+
+    </style>
+</resources>

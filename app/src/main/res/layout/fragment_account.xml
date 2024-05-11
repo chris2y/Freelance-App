@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainFragments.AccountFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/accountToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:elevation="8dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Account"
+            android:id="@+id/account"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/bottomNav"
+            android:layout_gravity="right"
+            android:textColor="@color/light_black"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginEnd="10dp"
+            android:text="Logout" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:id="@+id/separator"
+        android:layout_below="@id/accountToolbar"
+        android:background="@color/light_white" />
+
+
+        <RelativeLayout
+        android:layout_below="@+id/separator"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/profileRelativeLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/accountimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/profileholder"
+            app:shapeAppearanceOverlay="@style/CircularImageView" />
+
+        <ImageView
+            android:id="@+id/editImage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/editprofile"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginEnd="2dp" />
+
+        </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/profileRelativeLayout"
+        android:text=""
+        android:textStyle="bold"
+        android:id="@+id/txtFullName"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@color/black"
+        android:layout_marginTop="3dp"
+        android:textSize="18dp"
+         />
+
+
+
+
+
+        <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        app:tabMode="scrollable"
+        app:tabGravity="center"
+        android:layout_below="@+id/txtFullName"
+        android:id="@+id/tabLayout">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Details"/>
+
+        <com.google.android.material.tabs.TabItem
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profile"/>
+
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager2.widget.ViewPager2
+        android:layout_below="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewPager"
+            />
+
+
+
+
+</RelativeLayout>

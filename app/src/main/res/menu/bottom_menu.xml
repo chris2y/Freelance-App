@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ac_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_listing"
+        android:icon="@drawable/ac_listing"
+        android:title="Listing" />
+
+    <item
+        android:id="@+id/nav_post"
+        android:icon="@drawable/ac_post"
+        android:title="Post" />
+
+    <item
+        android:id="@+id/nav_message"
+        android:icon="@drawable/ac_message"
+        android:title="Messages" />
+
+
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ac_account"
+        android:title="Account" />
+
+
+
+
+</menu>
