@@ -39,6 +39,8 @@ public class DetailFragment extends Fragment {
         adapterList = new ProfileRecyclerViewAdapter(dataModels, getContext());
         listRecyclerView.setAdapter(adapterList);
         return rootView;
+
+        //wow
     }
 
 }
