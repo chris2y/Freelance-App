@@ -21,11 +21,12 @@ FreelancerApp is a comprehensive Android application developed using Java. It se
 
 ## Screenshots
 <img src="https://github.com/chris2y/Freelance-App/assets/105220772/f83e2981-5a61-4dc5-abef-10b7c80228b1" alt="Screenshot 4" width="300"/>
+<img src="https://github.com/chris2y/Freelance-App/assets/105220772/3b212dca-f288-45ab-8ba7-0991e7068029" alt="Screenshot 5" width="300"/>
 <img src="https://github.com/chris2y/Freelance-App/assets/105220772/b989d338-62bd-41da-bee3-9882ae8617b1" alt="Screenshot 1" width="300"/>
 
 <img src="https://github.com/chris2y/Freelance-App/assets/105220772/f9a7de61-6de7-4c98-8eba-58a71da1bb39" alt="Screenshot 3" width="300"/>
 
-<img src="https://github.com/chris2y/Freelance-App/assets/105220772/3b212dca-f288-45ab-8ba7-0991e7068029" alt="Screenshot 5" width="300"/>
+
 <img src="https://github.com/chris2y/Freelance-App/assets/105220772/876ee548-0d15-4637-9e44-39388f3b556a" alt="Screenshot 6" width="300"/>
 <img src="https://github.com/chris2y/Freelance-App/assets/105220772/95db070b-21c8-47a2-a81e-fa42a81505fc" alt="Screenshot 7" width="300"/>
 <img src="https://github.com/chris2y/Freelance-App/assets/105220772/ffddfb8a-6a80-4d12-a039-bdae0e45d64e" alt="Screenshot 9" width="300"/>
