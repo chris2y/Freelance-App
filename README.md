@@ -82,4 +82,3 @@ For any inquiries or feedback, please reach out to:
 
 ---
 
-*This is a README file for the FreelancerApp Android app repository. Customize it according to your project's requirements.*
