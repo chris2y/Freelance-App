@@ -28,8 +28,9 @@ FreelancerApp is a comprehensive Android application developed using Java. It se
 <img src="https://github.com/chris2y/Freelance-App/assets/105220772/3b212dca-f288-45ab-8ba7-0991e7068029" alt="Screenshot 5" width="300"/>
 <img src="https://github.com/chris2y/Freelance-App/assets/105220772/876ee548-0d15-4637-9e44-39388f3b556a" alt="Screenshot 6" width="300"/>
 <img src="https://github.com/chris2y/Freelance-App/assets/105220772/95db070b-21c8-47a2-a81e-fa42a81505fc" alt="Screenshot 7" width="300"/>
-<img src="https://github.com/chris2y/Freelance-App/assets/105220772/ddedb9c8-1566-4a61-b6cc-b544c99a1f00" alt="Screenshot 8" width="300"/>
 <img src="https://github.com/chris2y/Freelance-App/assets/105220772/ffddfb8a-6a80-4d12-a039-bdae0e45d64e" alt="Screenshot 9" width="300"/>
+<img src="https://github.com/chris2y/Freelance-App/assets/105220772/ddedb9c8-1566-4a61-b6cc-b544c99a1f00" alt="Screenshot 8" width="300"/>
+
 
 ## Installation
 
