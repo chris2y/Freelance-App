@@ -41,7 +41,7 @@ To run this project, follow these steps:
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/yourusername/FreelancerApp.git
+    git clone https://github.com/chris2y/FreelancerApp.git
     ```
 
 2. **Open the project in Android Studio:**
